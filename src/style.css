@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: gray;
+  font-family: "Noto Serif TC", Sans-serif;
+}
+
+a:link {
+  color: currentColor;
+}
+a:visited {
+  color: currentColor;
+}
+a:hover {
+  color: currentColor;
+}
+a:active {
+  color: currentColor;
+}
