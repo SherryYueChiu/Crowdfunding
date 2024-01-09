@@ -106,7 +106,7 @@ h2 {
   font-family: 'Orbitron', monospace;
 
   &:before {
-    --width: calc(var(--p) * 1%);
+    --width: calc(min(var(--p),100) * 1%);
 
     content: '';
     position: absolute;
