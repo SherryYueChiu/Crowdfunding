@@ -2,14 +2,6 @@
 </script>
 
 <template>
-  <!-- <div class="container">
-    <div class="box left">
-      給參與者的話 給參與者的話 給參與者的話 給參與者的話
-    </div>
-    <div class="box right">
-      給大家的話 給大家的話 給大家的話 給大家的話
-    </div>
-  </div> -->
   <div class="copywriting">
     <p>這個月1/27是T&N Party，<br/>
       我們想要集資買一件香噴噴的衣服給貓咪穿。<br/>
