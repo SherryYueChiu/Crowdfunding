@@ -14,6 +14,10 @@ let attendeeList = ref<AttendeeType[]>([{
   name: '匿名',
 }]);
 
+funded.value = attendeeList.value.reduce((total, attendee) => {
+  return total + attendee.donateAmount;
+}, 0);
+
 </script>
 
 <template>
