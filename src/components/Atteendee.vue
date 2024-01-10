@@ -5,6 +5,10 @@ const funded = ref(0);
 const fundTarget = ref(2000);
 
 let attendeeList = ref<AttendeeType[]>([{
+  donateAmount: 700,
+  donateTime: '01/10 22:07 (15672)',
+  name: '匿名',
+},{
   donateAmount: 1000,
   donateTime: '01/10 08:32 (35109)',
   name: '伊舞珊',
