@@ -5,12 +5,16 @@ const funded = ref(0);
 const fundTarget = ref(2000);
 
 let attendeeList = ref<AttendeeType[]>([{
+  donateAmount: 1000,
+  donateTime: '01/10 08:32 (35109)',
+  name: '伊舞珊',
+},{
   donateAmount: 200,
   donateTime: '01/10 02:46 (16244)',
   name: '匿名',
 },{
   donateAmount: 100,
-  donateTime: '01/10 02:43(41981)',
+  donateTime: '01/10 02:43 (41981)',
   name: '匿名',
 }]);
 
@@ -44,7 +48,7 @@ funded.value = attendeeList.value.reduce((total, attendee) => {
     <div class="copywriting"><br />
       <p>如果你想要留下名字，可以利用APP轉帳時在備註打個名字，或是傳訊息告訴我。
       </p>
-      <p>如果集資金額超出訂單實際花費會從第一位開始退款，集資失敗則會全數退款。
+      <p>如果集資金額超出訂單實際花費會從最早捐款者開始退款，集資失敗則會全數退款。
       </p>
     </div>
   </div>
