@@ -32,7 +32,7 @@ funded.value = attendeeList.value.reduce((total, attendee) => {
   <div class="wrapper">
     <div class="copywriting">
       <p>
-        麻煩匯款到 013國泰世華 699504841981
+        麻煩匯款到 013國泰世華 69********81
       </p><br />
       <p><br />
       <div class="range" :style="('--p:' + Math.floor(100 * funded / fundTarget))">
